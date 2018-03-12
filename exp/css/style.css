@@ -1,6 +1,6 @@
 body{
     font-family: 'Dancing Script', cursive;
-   
+
 }
 /*our website wrapper*/
     #wrapper{
@@ -49,20 +49,83 @@ body{
         padding:0;
         margin:0 40px 20px 0;
         display: inline-block;
-       
+
     }
     nav{
         text-align: center;
     }
-   
+
     footer{
         font-size: 1.1em;
         color:#222222;
         text-align: center;
     }
-    
-    .socialicons{
-        height:35px;
-        width: 35px;
-        margin:10px;
+
+    /* footer*/
+
+
+    footer a{
+        text-decoration: none;
     }
+    .socialicons{
+        height:45px;
+        width:45px;
+        margin:20px 10px 0 0;
+        paddin:0;
+    }
+    /*ID port folio / important for image fix to make website mobile handy*/
+    #portfolio img{
+            max-width: 100%;  /* important thig to remember*/
+        }
+
+    #portfolio{
+        list-style: none;
+    }
+    #portfolio li{
+        widows: 95%;
+        margin:10px 2.5% 0 2.%;
+    }
+
+    /*styles for our About Page*/
+    #profilepic{
+        margin:5px 0 10px 0;
+        padding:0 0 10px 0;
+        float: ;
+        max-width:200px ;
+        display:block;
+    }
+
+    h3{
+        margin-bottom:  5px;
+        text-align:left;
+        margin:0 0 15px 10px;
+    }
+
+    #clientname{
+        text-align:left;
+        font-size:25px;
+        margin:0 0 0 35px;
+    }
+
+/*styles for our Blog Page*/
+
+.blogprofilepic{
+  margin:5px 0 10px 0;
+  padding:0 0 0 5px;
+  max-width:200px ;
+  display:block;
+  border-radius: 100%;
+
+}
+.sidebar li{
+  list-style: none;
+}
+
+.sidebar{
+  float:right;
+  margin:0 5% 0 10%;
+}
+
+.sidebar h3{
+  text-align: center;
+}
