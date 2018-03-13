@@ -47,7 +47,7 @@ body{
     }
     nav ul li{
         padding:0;
-        margin:0 40px 20px 0;
+        margin:0 70px 20px 0;
         display: inline-block;
 
     }
@@ -55,14 +55,16 @@ body{
         text-align: center;
     }
 
+
+
+/* footer*/
+
     footer{
         font-size: 1.1em;
         color:#222222;
         text-align: center;
+        clear: both;
     }
-
-    /* footer*/
-
 
     footer a{
         text-decoration: none;
@@ -72,10 +74,12 @@ body{
         width:45px;
         margin:20px 10px 0 0;
         paddin:0;
+
     }
     /*ID port folio / important for image fix to make website mobile handy*/
     #portfolio img{
             max-width: 100%;  /* important thig to remember*/
+            padding:0;
         }
 
     #portfolio{
@@ -90,19 +94,18 @@ body{
     #profilepic{
         margin:5px 0 10px 0;
         padding:0 0 10px 0;
-        float: ;
         max-width:200px ;
-        display:block;
+        display:
     }
 
     h3{
         margin-bottom:  5px;
-        text-align:left;
+        text-align:center;
         margin:0 0 15px 10px;
     }
 
     #clientname{
-        text-align:left;
+        text-align:center;
         font-size:25px;
         margin:0 0 0 35px;
     }
@@ -121,11 +124,43 @@ body{
   list-style: none;
 }
 
-.sidebar{
-  float:right;
-  margin:0 5% 0 10%;
-}
 
 .sidebar h3{
   text-align: center;
+}
+
+@media screen and (min-width:600px ){
+    #portfolio li{
+        float:left;
+        width:45%;
+        margin:2.5%;
+    }
+
+    .sidebar{
+        float:right;
+        margin:0 5% 0 10%;
+    }
+     .sidebar #profilepic{
+        text-align: center;
+        display: block;
+        float:center;
+    }
+    h3{
+        margin-bottom:  5px;
+        text-align:left;
+        margin:0 0 15px 10px;
+    }
+    #clientname{
+        text-align:er;
+        font-size:25px;
+        margin:0 0 0 35px;
+      
+}
+
+@media screen and (min-width:900px ){
+    #portfolio li{
+        float:left;
+        width:25%;
+        margin:2.5%;
+    }
 }
